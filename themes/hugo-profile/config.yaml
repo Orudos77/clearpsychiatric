@@ -37,7 +37,7 @@ menus:
 
 params:
   title: "Clear Psychiatric"
-  description: "Psychiatric Services in Crystal Lake, IL"
+  description: "Psychiatric Services in Algonquin, IL"
   favicon: "/fav.png"
   useBootstrapCDN: false
   animate: true
@@ -55,7 +55,7 @@ params:
     enable: true
     intro: "Your Path to Mental Wellness Starts Here"
     subtitle: "Welcome to Clear Psychiatric"
-    content: "Located in Crystal Lake, IL. Where your mental health and well-being are our top priority. Our compassionate and experienced team is dedicated to providing personalized care to help you achieve a balanced and fulfilling life."
+    content: "Located in Algonquin, IL. Where your mental health and well-being are our top priority. Our compassionate and experienced team is dedicated to providing personalized care to help you achieve a balanced and fulfilling life."
     image: "/images/headshot.png"
     bottomImage:
       enable: true
@@ -76,7 +76,7 @@ params:
   services:
     list:
       "Medication Management": "Comprehensive evaluation and management of psychiatric medications to ensure optimal treatment outcomes."
-      "Food Intake Treatment": "Treatment of food/intake related conditions such as: eating disorders, binge eating disorder, obesity, medication related weight changes. Treatment of these conditions with semaglutide, tirzepatide, metformin and other FDA approved medications and treatments for obesity."
+      "Diagnosis": ""
     "Telehealth": "Convenient online therapy sessions for patients who prefer remote consultations."
 
   contact:
