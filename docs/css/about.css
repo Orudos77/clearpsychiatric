@@ -19,3 +19,30 @@
 .some-other-class {
     /* Other existing styles */
 }
+/* About section styles */
+.about-section {
+    padding: 0 0 3rem 0;
+}
+
+.about-section .image {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.about-section .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0 !important; /* Ensure no rounded corners */
+    object-fit: cover; /* Ensures the image covers the area nicely */
+}
+
+.about-section .content {
+    padding: 1rem;
+}
+
+@media (max-width: 767px) {
+    .about-section .image img {
+        max-width: 100%;
+    }
+}
