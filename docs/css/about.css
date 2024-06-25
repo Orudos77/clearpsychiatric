@@ -1,24 +1,3 @@
-/* Assuming common styling for the about section */
-.about-section {
-    /* Your existing styles */
-}
-
-.about-section img {
-    border-radius: 0 !important; /* Ensure no rounded corners */
-    clip-path: none !important;  /* Ensure no clipping paths */
-    mask: none !important;       /* Ensure no masks */
-    z-index: auto !important;    /* Reset stacking order */
-}
-
-/* Other existing styles in about.css */
-.viewer-enabled-image {
-    cursor: zoom-in;
-}
-
-/* Additional styles to maintain existing design */
-.some-other-class {
-    /* Other existing styles */
-}
 /* About section styles */
 .about-section {
     padding: 0 0 3rem 0;
@@ -42,7 +21,18 @@
 }
 
 @media (max-width: 767px) {
+    .about-section .image {
+        margin-bottom: 1rem;
+    }
     .about-section .image img {
         max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .about-section .image img {
+        max-width: 100%; /* Set max width for larger screens */
+        width: auto;     /* Maintain aspect ratio */
+        height: auto;    /* Maintain aspect ratio */
     }
 }
