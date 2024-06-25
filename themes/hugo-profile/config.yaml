@@ -76,7 +76,7 @@ params:
   services:
     list:
       "Medication Management": "Comprehensive evaluation and management of psychiatric medications to ensure optimal treatment outcomes."
-      "Diagnosis": ""
+      "Diagnosis": "Utilizing evidence based tools and a comprehensive one-on-one psychiatric evaluation we identify the root causes of your mental health concerns."
     "Telehealth": "Convenient online therapy sessions for patients who prefer remote consultations."
 
   contact:
