@@ -5,7 +5,7 @@
 
 .about-section .image {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     padding: .5rem;
 }
 
@@ -18,12 +18,12 @@
 }
 
 .about-section .content {
-    padding: .5rem;
+    padding-left: -1rem;
 }
 
 @media (max-width: 767px) {
     .about-section .image {
-        margin-bottom: .5rem;
+        margin-bottom: 1rem;
     }
     .about-section .image img {
         max-width: 100%;
