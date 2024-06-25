@@ -10,9 +10,9 @@
 }
 
 .about-section .image img {
-    max-width: 60%; /* Adjusted size */
+    max-width: 60%; /* Adjust the max-width */
     width: auto;
-    height: auto;    /* Maintain aspect ratio */
+    height: auto;
     border-radius: 0 !important; /* Ensure no rounded corners */
     object-fit: cover; /* Ensures the image covers the area nicely */
 }
