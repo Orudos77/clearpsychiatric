@@ -10,7 +10,7 @@
 }
 
 .about-section .image img {
-    max-width: 100%;
+    max-width: 50%; /* Adjusted to make the image 50% smaller */
     height: auto;
     border-radius: 0 !important; /* Ensure no rounded corners */
     object-fit: cover; /* Ensures the image covers the area nicely */
@@ -31,7 +31,7 @@
 
 @media (min-width: 768px) {
     .about-section .image img {
-        max-width: 100%; /* Set max width for larger screens */
+        max-width: 50%; /* Set max width for larger screens */
         width: auto;     /* Maintain aspect ratio */
         height: auto;    /* Maintain aspect ratio */
     }
