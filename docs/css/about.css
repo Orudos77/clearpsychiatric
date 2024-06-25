@@ -21,7 +21,7 @@
     padding: 1rem;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 500px) {
     .about-section .image {
         margin-bottom: 1rem;
     }
@@ -30,7 +30,7 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 300px) {
     .about-section .image img {
         max-width: 150px; /* Ensure max width for larger screens */
         width: 100%;      /* Ensure the image is responsive */
