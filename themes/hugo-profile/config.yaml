@@ -69,7 +69,7 @@ params:
   about:
     enable: true
     title: "About Us"
-    image: "/images/about.png"
+    image: "/images/headshot1.png"
     content: |-
       As a psychiatric nurse practitioner with extensive experience in both inpatient and outpatient settings, I am committed to providing compassionate, holistic care to my patients. In my practice, I prioritize creating a safe and supportive environment where patients can explore their mental health and physical concerns and develop effective coping strategies.
 
