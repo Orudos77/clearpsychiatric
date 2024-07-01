@@ -1,44 +1,21 @@
-/* About section styles */
+/* Assuming common styling for the about section */
 .about-section {
-    padding: 0 0 3rem 0;
+    /* Your existing styles */
 }
 
-.about-section .image {
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-}
-
-.about-section .image img {
-    max-width: 60%; /* Adjust the max-width */
-    width: auto;
-    height: auto;
+.about-section img {
     border-radius: 0 !important; /* Ensure no rounded corners */
-    object-fit: cover; /* Ensures the image covers the area nicely */
+    clip-path: none !important;  /* Ensure no clipping paths */
+    mask: none !important;       /* Ensure no masks */
+    z-index: auto !important;    /* Reset stacking order */
 }
 
-.about-section .content {
-    padding: 1rem;
+/* Other existing styles in about.css */
+.viewer-enabled-image {
+    cursor: zoom-in;
 }
 
-@media (max-width: 767px) {
-    .about-section .image {
-        margin-bottom: 1rem;
-    }
-    .about-section .image img {
-        max-width: 100%;
-    }
-}
-
-@media (min-width: 768px) {
-    .about-section .row {
-        display: flex;
-        align-items: center; /* Center align the image and text vertically */
-    }
-    .about-section .image {
-        flex: 0 0 auto; /* Prevent the image container from growing */
-    }
-    .about-section .content {
-        flex: 1 1 auto; /* Allow the content to grow and fill the space */
-    }
+/* Additional styles to maintain existing design */
+.some-other-class {
+    /* Other existing styles */
 }

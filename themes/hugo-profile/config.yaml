@@ -56,7 +56,7 @@ params:
     intro: "Your Path to Mental Wellness Starts Here"
     subtitle: "Welcome to Clear Psychiatric"
     content: "Located in Algonquin, IL. Where your mental health and well-being are our top priority. Our compassionate and experienced team is dedicated to providing personalized care to help you achieve a balanced and fulfilling life."
-    image: "/images/about.png"
+    image: "/images/about.jpg"
     bottomImage:
       enable: true
     button:
@@ -69,7 +69,7 @@ params:
   about:
     enable: true
     title: "About Us"
-    image: "/images/headshot1.png"
+    image: "/images/headshot.jpg"
     content: |-
       As a psychiatric nurse practitioner with extensive experience in both inpatient and outpatient settings, I am committed to providing compassionate, holistic care to my patients. In my practice, I prioritize creating a safe and supportive environment where patients can explore their mental health and physical concerns and develop effective coping strategies.
 
